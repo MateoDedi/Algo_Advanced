@@ -25,7 +25,7 @@ function ransomNote(noteText, magazineText) {
     return true;
   }
 
-  const noteText1 = "this is a secret note to you from a secret admirer";
+const noteText1 = "this is a secret note to you from a secret admirer";
 const magazineText1 = "puerto rico is a great place you must hike far from town to find a secret waterfall that i am an admirer of but note that it is not as hard as it seems this is my advice to you";
 console.log(ransomNote(noteText1, magazineText1)); // Should print false
 
